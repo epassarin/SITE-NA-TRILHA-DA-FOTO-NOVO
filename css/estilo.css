@@ -1,0 +1,549 @@
+/* 
+GERAL
+*/
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#4d4d4d;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button {
+    color: #caebf2;
+    text-decoration: none;
+    background-color: #ff383f;
+    padding: 10px 30px;
+	font-size:  .9em;
+    border-radius: 12px;
+    margin-top: 20px;   
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* NAVAGAÇÃO */
+
+nav {    
+    flex-direction: column;
+    align-items: center;
+    background-color: #607993;
+
+}
+
+nav img {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #a5a5a5;
+    font-weight: 600;
+    font-size: 1.2em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul li {
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 6px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #efefef;
+
+}
+
+nav li a:hover {  
+    background-color: #caebf2;  
+    text-decoration: none;
+    border-bottom: 3px solid #ff383f;
+    color: #607993;
+
+
+}
+
+
+/* CABEÇALHO */
+
+header {
+    width: 100%;
+   background-image: url(/image/slider/1920x800/imagem_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+	text-align: center;
+    padding: 2.5em;
+
+}
+
+header h1 {
+    color: white;
+    margin-bottom: 1em;
+}
+
+header p {
+    color: #f5f5f5;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+}
+
+/*
+SERVIÇOS - SOBRE
+*/
+
+#sobre {
+   
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px;  
+    color: #9099a2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sobre h1 {
+    margin-top: .9em;
+}
+
+#sobre img {
+    margin-top: 1.2em;
+    width: 30%;
+}
+
+#sobre h2 {
+    margin-top: 0.9em;
+    max-width: 1000px;
+
+}
+
+#sobre p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+
+/* 
+DICAS E TUTORIAIS
+*/
+
+#dicas-tutoriais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px;
+    background-color: #96858f;
+    color: #efefef;
+    padding-top: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#dicas-tutoriais h1 {
+    margin-top: .9em;
+}
+
+#dicas-tutoriais h2{
+    margin-top: 0.9em;
+    max-width: 1000px;
+}
+
+#dicas-tutoriais img {
+    width: 30%;
+    padding-top: 2em;
+    padding-bottom: 1.2em;
+}
+
+/*
+CURSOS E DOWNLOADS
+*/
+
+#cursos-downloads {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px;
+    background-color: #607993;
+    color: #efefef;
+    padding-top: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#cursos-downloads h1 {
+    margin-top: .9em;
+}
+
+#cursos-downloads h2 {    
+    margin-top: 0.9em;
+    max-width: 1000px;
+    font-variant: small-caps;
+}
+
+#cursos-downloads p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#cursos-downloads img {
+    width: 30%;
+    padding-top: 2em;
+    padding-bottom: 1.2em;
+}
+
+/*
+COLABORADORES
+*/
+
+#colaboradores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px;
+    color: #96858f;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+#colaboradores h1 {
+    margin-top: 1.5em;
+}
+
+#colaboradores h2 {
+    margin-top: 0.9em;
+    max-width: 1000px;
+    font-variant: small-caps;
+}
+
+#colaboradores img{
+   border-radius: 50em;
+   border: solid 3px #96858f;
+   margin-top: 1.2em;
+   width: 40%;
+   
+}
+
+
+
+/*
+PORTFOLIO
+*/
+
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#portfolio h1 {
+    margin-top: .9em;
+}
+
+#portfolio img {
+    width: 100%;;
+}
+
+
+/*
+CONTATO
+*/
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: 100%;;
+}
+
+#contato p a {
+    text-decoration: none;
+    color: #efefef;
+}
+
+/*
+RODAPÉ 
+*/
+#rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #607993;
+    color: #efefef;
+}
+
+#rodape a {
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    
+}
+
+/* ************************************
+***************************************
+****    MEDIA QUERIES  - TABLET    ****
+***************************************
+************************************ */
+
+@media screen and (min-width: 900px) {
+
+
+    /*  GERAL  */
+
+    .organize {
+
+        max-width: 1140px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .bt-leia {
+        font-size: 1.1em;
+        font-weight: 600;
+        border: solid 1px #96858f;
+        color:orange;
+        padding: 2px 9px;
+        border-radius: 5px;
+    }
+
+
+/* NAVEGALÇAO */
+
+  
+      
+    nav {  
+        
+        background: #607993;      
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        height: 9em; 
+        
+        }
+  
+
+    nav img {  
+        margin-top: .9em;;
+        }
+    
+    nav ul {          
+        flex-direction: row;
+        
+        
+        }
+
+    nav li a {        
+        font-size: 1.2em;
+        margin: 0 5px;
+        padding: 15px 10px;
+        background-color:#607993;
+       
+        } 
+
+/* CABEÇALHO */
+
+
+
+    header{
+        width:100%;
+        background-image: url(/image/slider/1920x800/imagem_9.jpg);
+        flex-direction: column;
+        display: block ;           
+        flex-wrap: wrap;  
+        margin: 0 auto;
+        height: 30em;
+    }
+
+    header h1 {
+        margin-top: 2em;
+    }
+
+    header  p {
+        max-width:60%;
+        font-size: 2em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 0 auto;
+        margin-bottom: 2em;
+    }
+
+    header a {
+        margin-top: 25em;
+        
+        }
+
+        header img {
+            width: 80%;
+        }
+
+    /* SOBRE - SERVIÇOS */
+
+        #sobre {
+            max-width: 1140px;   
+            margin: 0 auto;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-start;                            
+                      
+        } 
+
+        #sobre h1{            
+            text-align: center;
+            width: 100%;
+            
+        }       
+
+        #sobre div {          
+            flex-grow: 1;
+            flex-basis: 150px;
+            padding: 0 20px;
+        }
+
+        #sobre img {
+            width: 180px;
+        }
+
+        /* DICAS E TUTORIAIS*/
+          
+
+        #dicas-tutoriais h1 {
+            text-align: center;
+            width: 100%;
+        }
+
+        #dicas-tutoriais div {                   
+            flex-grow: 1;
+            flex-basis: 150px;
+            padding: 0 20px;
+            margin: 10px 10px;
+            
+        }
+
+        #dicas-tutoriais h2,
+        #dicas-tutoriais p {
+            margin-bottom: 1.2em;
+            margin-bottom: 1.2em;
+            text-align: center;
+            width: 100%;
+            font-size: 1.2em;
+
+        }
+
+        #dicas-tutoriais img {
+            width: 180px;
+        }
+
+       
+        /* CURSOS E DOWNLOADS */
+
+        #cursos-downloads {            
+            margin: 0 auto;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-start;
+
+        } 
+
+        #cursos-downloads h1 {
+            text-align: center;
+            width: 100%;
+        }
+
+        #cursos-downloads h2,
+        #cursos-downloads p {
+            margin-bottom: 1.2em;
+            text-align: center;
+            width: 100%;
+            font-size: 1.2em;
+        }
+
+        #cursos-downloads div { 
+            flex-grow: 1;
+            flex-basis: 200px;
+            padding: 0 20px;
+         
+        }
+
+        #cursos-downloads img {
+            width: 180px;
+        }
+
+        /* COLABORADORES */
+
+        #colaboradores {
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            max-width: 1140px;
+            margin: 0 auto;
+        }
+
+        #colaboradores h1 {
+            text-align: center;
+            width: 100%;
+
+        }
+        
+        #colaboradores div {
+            flex-grow: 1;
+            flex-basis: 200px;
+            padding: 0 20px;
+        }
+
+        #colaboradores img {
+            width: 180px;
+        }
+        
+        /*PORTFOLIO*/
+
+        #portfolio {
+            width: 100%;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        #portfolio h1 {         
+            padding: .5em 0;
+            margin-bottom: .1em;
+            text-align: center;
+            width: 100%;
+        }
+
+        #portfolio div {
+            width: 32.333333%;
+            flex-wrap: wrap;
+            width: 0 auto;
+            margin: 0.2em;
+        }
+
+
+}  
